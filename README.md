@@ -1,9 +1,8 @@
-3. ##**EX.NO:
- 3  EXPERIMENTAL VERIFICATION OF INTEGRATOR AND DIFFERENTIATOR USING OP-AMP 
+## EX.NO: 3  EXPERIMENTAL VERIFICATION OF INTEGRATOR AND DIFFERENTIATOR USING OP-AMP 
             
-**DATE:**  
-             3A INTEGRATOR
----
+## DATE:31.1.2026
+
+## 3A INTEGRATOR
 
 ## AIM
 To design and test the performance of integrator and differentiator circuits using Op-amp
@@ -34,23 +33,21 @@ Here the negative sign indicates that the output voltage is 180 0 out of phase w
 T ≥ Rf Cf
 
 The integrator is most commonly used in analog computers and ADC and signal-wave shaping circuits.
-CIRCUIT DIAGRAM
+ 
 ## CIRCUIT DIAGRAM
-<img width="698" height="423" alt="image" src="https://github.com/user-attachments/assets/f007b349-f96e-42d3-acd3-a37119fc16fc" />
+
+ ![WhatsApp Image 2026-03-27 at 8 45 48 PM](https://github.com/user-attachments/assets/82757c00-a408-446e-8f84-95c188834768)
 
 
 ## MODEL GRAPH
-<img width="556" height="380" alt="image" src="https://github.com/user-attachments/assets/caa7461c-69f7-4636-8e31-eea6db6efbb5" />
 
-<img width="847" height="553" alt="image" src="https://github.com/user-attachments/assets/d8d3e586-8e58-47ba-baae-2794c7955d51" />
-
----
+![WhatsApp Image 2026-03-27 at 8 46 44 PM](https://github.com/user-attachments/assets/c6f4c050-6e60-47bf-b84e-32655f73ced9)
 
 ## DESIGN
 
 To obtain the output of an Integrator circuit with component values R1Cf = 0.1ms , Rf = 10 R1 and Cf = 0.01 µF and also if 1 V peak square wave at 1000Hz is applied as input.
 We know the frequency at which the gain is 0 dB, fb = 1 / (2π R1 Cf) Therefore fb = 	 Since fb = 10 fa , and also the gain limiting frequency fa = 1 / (2π Rf Cf)
-We get , R1 =	and hence Rf = 	
+
 
 ## PROCEDURE
 
@@ -59,22 +56,24 @@ We get , R1 =	and hence Rf =
 3.	By adjusting the amplitude and frequency knobs of the function generator, appropriate input voltage is applied to the inverting input terminal of the Op- Amp.
 4.	The output voltage is obtained in the CRO and the input and output voltage waveforms are plotted in a graph sheet.
 
+![WhatsApp Image 2026-03-27 at 10 18 37 PM](https://github.com/user-attachments/assets/0d03b32b-ae4c-490c-ba50-55efe0b9bd9e)
 
 ## TABULATION
-| Waveform Type | **Input Amplitude (V)** | **Input Time Period (ms)** | **Input Frequency (Hz)** | **Output Amplitude (V)** | **Output Time Period (ms)** | **Output Frequency (Hz)** |
-|----------------|--------------------------|-----------------------------|---------------------------|---------------------------|------------------------------|----------------------------|
-| Sine Wave      |                          |                             |                           |                           |                              |                            |
-| Square Wave    |                          |                             |                           |                           |                              |                            |
-		
+
+![WhatsApp Image 2026-03-27 at 8 50 46 PM](https://github.com/user-attachments/assets/69208ec7-0309-400a-a5e5-005cbd730dd0)
 
 ---
+## CALCULATION
+
+![WhatsApp Image 2026-03-27 at 8 47 23 PM](https://github.com/user-attachments/assets/4d9f33bc-2bee-4187-a4f3-518ccef5e357)
 
 ## OUT PUT WAVEFORM AND DISCUSSION 
 
+![WhatsApp Image 2026-03-27 at 8 49 51 PM](https://github.com/user-attachments/assets/7cefd11d-63b1-463d-af5d-5526a92a954d)
 
 ---
-**DATE:**  
-             3 B DIFFERENTIATOR
+## DATE:7.2.2026
+## 3B DIFFERENTIATOR
 ---
 
 ## AIM
@@ -109,22 +108,20 @@ Here the negative sign indicates that the output voltage is 180 0 out of phase w
 The differentiator is most commonly used in wave shaping circuits to detect high frequency components in an input signal and also as a rate–of–change detector in FM modulators.
 
 ## CIRCUIT DIAGRAM
-<img width="760" height="414" alt="image" src="https://github.com/user-attachments/assets/6ee3caf5-d5de-4c38-8ebe-7ff5add6c9cd" />
 
+![WhatsApp Image 2026-03-27 at 8 25 27 PM](https://github.com/user-attachments/assets/975b85f2-2e75-4d1e-b841-b505d1089bdc)
 
 
 ## MODEL GRAPH
 
 (i)	 SINE WAVE INPUT
+ 
+ ![WhatsApp Image 2026-03-27 at 8 26 13 PM](https://github.com/user-attachments/assets/48e1212e-e8db-4c75-a544-49a18763d542)
 
-<img width="687" height="479" alt="image" src="https://github.com/user-attachments/assets/c89226c0-c2bb-4544-b355-27fc0d923f1a" />
----
-
-AND
 
 (ii) SQUARE WAVE INPUT
 
-<img width="758" height="447" alt="image" src="https://github.com/user-attachments/assets/cda33b00-c40c-490f-a9bd-e06107119c25" />
+![WhatsApp Image 2026-03-27 at 8 27 47 PM](https://github.com/user-attachments/assets/ec881bcf-afa5-470f-95f8-31506c9bdd70)
 
 
 ---
@@ -139,7 +136,9 @@ Now choose fb = 10fa = 1 / 2πR1C1 Therefore, R1 = 1 / 2π(103)(10-7)
 = 1.59KΩ Since RFCF = R1C1
 We get, CF = (1.59*103*10-7) / 15.9*103
 = 0.01μF
+![WhatsApp Image 2026-03-27 at 10 21 19 PM](https://github.com/user-attachments/assets/e95040f7-cf3d-4ac3-ad57-1ddfbac6af20)
 
+![WhatsApp Image 2026-03-27 at 10 25 09 PM](https://github.com/user-attachments/assets/c11086cc-07e3-4de1-aeef-eddf2e058908)
 
 ## PROCEDURE
 
@@ -148,20 +147,19 @@ We get, CF = (1.59*103*10-7) / 15.9*103
 3.	By adjusting the amplitude and frequency knobs of the function generator, appropriate input voltage is applied to the inverting input terminal of the Op- Amp.
 4.	The output voltage is obtained in the CRO and the input and output voltage waveforms are plotted in a graph sheet.
 
- ## TABULATION
-| Waveform Type | **Input Amplitude (V)** | **Input Time Period (ms)** | **Input Frequency (Hz)** | **Output Amplitude (V)** | **Output Time Period (ms)** | **Output Frequency (Hz)** |
-|----------------|--------------------------|-----------------------------|---------------------------|---------------------------|------------------------------|----------------------------|
-| Sine Wave      |                          |                             |                           |                           |                              |                            |
-| Square Wave    |                          |                             |                           |                           |                              |                            |
-		
+## TABULATION
+![WhatsApp Image 2026-03-27 at 8 29 53 PM](https://github.com/user-attachments/assets/882d23d1-1b61-4c84-99bf-251ba82defd7)
+
+## CALCULATION
+![WhatsApp Image 2026-03-27 at 8 51 38 PM](https://github.com/user-attachments/assets/9de93e36-c5e7-40ac-85bd-331bce6b2957)
 
 ## OUT PUT WAVEFORM AND DISCUSSION 
-
----
-
-RESULT:
+![WhatsApp Image 2026-03-27 at 8 31 38 PM](https://github.com/user-attachments/assets/d78da06f-1703-4e29-9c75-85ddc9139d49)
+![WhatsApp Image 2026-03-27 at 8 52 03 PM](https://github.com/user-attachments/assets/f58b68c8-fa98-4422-be52-fff7777383e7)
+ 
+ ## RESULT:
 Thus an Integrator and Differentiator using op-amp are designed and their performance was successfully tested using op-amp IC 741.
----
+ 
 
 
 
