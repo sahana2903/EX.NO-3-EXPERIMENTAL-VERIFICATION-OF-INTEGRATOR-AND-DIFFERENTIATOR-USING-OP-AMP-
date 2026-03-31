@@ -34,12 +34,13 @@ The integrator is most commonly used in analog computers and ADC and signal-wave
  
 ## CIRCUIT DIAGRAM
 
- ![WhatsApp Image 2026-03-27 at 8 45 48 PM](https://github.com/user-attachments/assets/82757c00-a408-446e-8f84-95c188834768)
+ ![WhatsApp Image 2026-03-31 at 8 40 22 AM](https://github.com/user-attachments/assets/d90445e4-4763-4235-8256-a1189833d680)
+
 
 
 ## MODEL GRAPH
 
-![WhatsApp Image 2026-03-27 at 8 46 44 PM](https://github.com/user-attachments/assets/c6f4c050-6e60-47bf-b84e-32655f73ced9)
+![WhatsApp Image 2026-03-31 at 8 40 22 AM](https://github.com/user-attachments/assets/3f610a8b-666d-43f3-af59-0c5883a3d8ca)
 
 ## DESIGN
 
@@ -58,16 +59,19 @@ We know the frequency at which the gain is 0 dB, fb = 1 / (2π R1 Cf) Therefore 
 
 ## TABULATION
 
-![WhatsApp Image 2026-03-27 at 8 50 46 PM](https://github.com/user-attachments/assets/69208ec7-0309-400a-a5e5-005cbd730dd0)
+<img width="988" height="1600" alt="image" src="https://github.com/user-attachments/assets/8e310531-3a05-4a54-a539-2ddb7a13d7dc" />
+
 
 ---
 ## CALCULATION
 
-![WhatsApp Image 2026-03-27 at 8 47 23 PM](https://github.com/user-attachments/assets/4d9f33bc-2bee-4187-a4f3-518ccef5e357)
+<img width="988" height="1600" alt="image" src="https://github.com/user-attachments/assets/d0dda6ea-e0d1-417b-8210-67419a9aa1e8" />
+
 
 ## OUT PUT WAVEFORM AND DISCUSSION 
 
-![WhatsApp Image 2026-03-27 at 8 49 51 PM](https://github.com/user-attachments/assets/7cefd11d-63b1-463d-af5d-5526a92a954d)
+<img width="1600" height="996" alt="image" src="https://github.com/user-attachments/assets/74f90f3e-66ab-414b-8177-25a83690eaa5" />
+
 
 ---
 ## DATE:7.2.2026
@@ -107,8 +111,8 @@ The differentiator is most commonly used in wave shaping circuits to detect high
 
 ## CIRCUIT DIAGRAM
 
-![WhatsApp Image 2026-03-27 at 8 25 27 PM](https://github.com/user-attachments/assets/975b85f2-2e75-4d1e-b841-b505d1089bdc)
 
+<img width="1600" height="887" alt="image" src="https://github.com/user-attachments/assets/21ab49ef-3ebf-4280-b676-47d25cce9bae" />
 
 ## MODEL GRAPH
 
@@ -134,9 +138,6 @@ Now choose fb = 10fa = 1 / 2πR1C1 Therefore, R1 = 1 / 2π(103)(10-7)
 = 1.59KΩ Since RFCF = R1C1
 We get, CF = (1.59*103*10-7) / 15.9*103
 = 0.01μF
-![WhatsApp Image 2026-03-27 at 10 21 19 PM](https://github.com/user-attachments/assets/e95040f7-cf3d-4ac3-ad57-1ddfbac6af20)
-
-![WhatsApp Image 2026-03-27 at 10 25 09 PM](https://github.com/user-attachments/assets/c11086cc-07e3-4de1-aeef-eddf2e058908)
 
 ## PROCEDURE
 
@@ -146,15 +147,17 @@ We get, CF = (1.59*103*10-7) / 15.9*103
 4.	The output voltage is obtained in the CRO and the input and output voltage waveforms are plotted in a graph sheet.
 
 ## TABULATION
-![WhatsApp Image 2026-03-27 at 8 29 53 PM](https://github.com/user-attachments/assets/882d23d1-1b61-4c84-99bf-251ba82defd7)
+<img width="1600" height="887" alt="image" src="https://github.com/user-attachments/assets/47d54860-1ea6-4833-87c6-c4d3fcd4a3a3" />
 
 ## CALCULATION
-![WhatsApp Image 2026-03-27 at 8 51 38 PM](https://github.com/user-attachments/assets/9de93e36-c5e7-40ac-85bd-331bce6b2957)
+<img width="1600" height="887" alt="image" src="https://github.com/user-attachments/assets/dd7f051b-917a-4502-b8da-94ab2e8207a4" />
+
 
 ## OUT PUT WAVEFORM AND DISCUSSION 
-![WhatsApp Image 2026-03-27 at 8 31 38 PM](https://github.com/user-attachments/assets/d78da06f-1703-4e29-9c75-85ddc9139d49)
-![WhatsApp Image 2026-03-27 at 8 52 03 PM](https://github.com/user-attachments/assets/f58b68c8-fa98-4422-be52-fff7777383e7)
- 
+<img width="1600" height="1206" alt="image" src="https://github.com/user-attachments/assets/71dd0b7b-58ff-4ec4-b5c7-fd037c20ae73" />
+<img width="1432" height="1089" alt="image" src="https://github.com/user-attachments/assets/67eacee3-a681-4a18-8b81-027f4c8ffaca" />
+
+
  ## RESULT:
 Thus an Integrator and Differentiator using op-amp are designed and their performance was successfully tested using op-amp IC 741.
  
